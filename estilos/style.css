@@ -26,7 +26,7 @@ main {
     width: 100vw; 
 }
 
-section#login {
+#login {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +43,7 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div#imagem {
+#login #imagem {
     display: block;
     background-color: var(--cor2);
     background-image: url(../imagens/fundo.jpg);
@@ -53,16 +53,16 @@ section#login > div#imagem {
     background-position: left bottom;
 }
 
-section#login > div#formulario {
+#login #formulario {
     display: block;
     padding: 10px;
 }
 
-div#formulario > h1 {
+#formulario h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#formulario > p {
+#formulario p {
     font-size: 0.8em;
 }
