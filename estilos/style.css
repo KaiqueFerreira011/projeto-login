@@ -89,11 +89,11 @@ div.campo span {
 }
 
 div.campo input {
-    background-color: #49cfcd;
+    background-color: #79ddda;
     font-size: 1em;
-    width: calc(100% - 55px);
+    width: calc(100% - 44px);
     height: 100%;
-    transform: translateY(-12px);
+    transform: translateY(-13px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;

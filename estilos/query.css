@@ -10,6 +10,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #login #imagem {
@@ -22,6 +23,17 @@
         float: right;
         width: 70%;
     }
+
+    div.campo input {
+        background-color: #79ddda;
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 100%;
+        transform: translateY(-12px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -32,6 +44,7 @@
 
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #login #imagem {
@@ -50,6 +63,18 @@
     }
 
     #formulario p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    div.campo input {
+        background-color: #49cfcd;
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 100%;
+        transform: translateY(-13px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
     }
 }
